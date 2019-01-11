@@ -1,0 +1,18 @@
+{
+    "name": "lemahieu/base-php",
+    "description": "couteau suisse du développement web en php.",
+    "authors": [
+        {
+            "name": "Luc",
+            "email": "luc.lemahieu@laposte.net"
+        }
+    ],
+    "autoload" : {
+        "psr-4":{
+            "Models\\":"src/Models",
+            "Controllers\\":"src/Controllers",
+            "App\\":"src/App"
+        }
+    },
+    "require": {}
+}
